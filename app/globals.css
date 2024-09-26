@@ -1,0 +1,14 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  @apply bg-gray-200;
+  @apply text-gray-950;
+}
